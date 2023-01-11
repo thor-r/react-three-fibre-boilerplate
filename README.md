@@ -23,3 +23,10 @@ modulus ----> onPointerDown={() => setCount((count + 1) % 2)} //modulus 2 means 
 geometry can be added as a prop to a mesh or a jsx tag inside mesh
 
 lights lesson - to create a sun use a sphere inside your light source tag
+
+<OrbitControls target={[0, 1, 0]} maxPolarAngle={Math.PI / 2} /> locks the camera inside the sphere so you cannot pan underneath the x plane
+
+leva goes outside the canvas 
+
+any HTML elements need to be placed outside the canvas
+
