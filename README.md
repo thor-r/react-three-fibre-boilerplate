@@ -30,3 +30,7 @@ leva goes outside the canvas
 
 any HTML elements need to be placed outside the canvas
 
+The Drei Html component must be placed inside the React Three Fiber Canvas element. Any HTML tags that you also place within your Drei Html component, will automatically be rendered via the React-Dom reconciler instead despite the HTML tags now existing under the Canvas element.
+
+So using the Drei Html inside a React Three Fiber canvas is another way to solve the HTML Element is not part of the THREE namespace! error.
+
